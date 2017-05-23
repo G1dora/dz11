@@ -1,0 +1,21 @@
+
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+    String s = "abrakadabra";
+    int len = s.length();
+    int count = len / 2;
+    System.out.println("Длинна строки:" + len);
+        int i = 0;
+while (count > i) {
+    System.out.print(i + " ");
+    i++;
+}
+    String[] sParts = s.split("");
+    String x1 = sParts[i];
+    String x2 = sParts[1];         
+    System.out.println(count);
+    System.out.println(x1);
+  
